@@ -2,8 +2,8 @@
 version: '2.2'
 services:
   cs:
-    #image: itlboy/hlds
-    image: hlds/server:alpha
+    image: itlboy/hlds
+    #image: hlds/server:alpha
     volumes:
       - ./server.cfg:/opt/hlds/cstrike/server.cfg
     restart: always
